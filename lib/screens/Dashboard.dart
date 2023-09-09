@@ -12,8 +12,7 @@ class Dashboard extends StatelessWidget {
         title: Text('Dashboard'.toUpperCase()),
         backgroundColor: Colors.blueAccent,
       ),
-      body: Center(
-          child: Text("Random value is: ${getNumber()}")),
+      body: Image.asset('images/happy_meal.jpg', height: 200.0, width: 250.0, fit: BoxFit.fill,)
     );
   }
 }
